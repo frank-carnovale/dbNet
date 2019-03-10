@@ -1,9 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-    </head>
-    <body>
-        hello from work
-    </body>
+<head>
+
+    <!-- Vue.js dev version -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- Vue.js prod version -->
+    <!--script src="https://cdn.jsdelivr.net/npm/vue"></script-->
+
+</head>
+
+<body>
+
+    <div id="app">
+      {{ msg1 }}
+    </div>
+
+    <div id="app-2">
+        <span v-bind:title="message">
+        Now leave
+    </div>
+
+    <script>
+    var app = new Vue({
+      el: '#app',
+      data: {
+        msg1: 'Welcome from dbNet!'
+      }
+    })
+
+    var app2 = new Vue({
+      el: '#app-2',
+      data: {
+        message: 'You loaded this page on ' + new Date().toLocaleString()
+      }
+    })
+    </script>
+
+</body>
+
 </html>
 
