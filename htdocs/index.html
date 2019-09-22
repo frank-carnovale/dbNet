@@ -1,40 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-    <!-- Vue.js dev version -->
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    <!-- Vue.js prod version -->
-    <!--script src="https://cdn.jsdelivr.net/npm/vue"></script-->
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover user-scalable=1" >
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous">
+    <title>dbNet Home</title>
+    <link rel="stylesheet" href="https://dbnet.uk/dbnet.css">
 </head>
 
 <body>
 
-    <div id="app">
-      {{ msg1 }}
+    <div class="page grad d-flex align-items-center">
+
+        <div class="d-flex justify-content-center" style="width:100%;color:#fff;font-style:italic;font-size:48px">
+          dbNet
+        </div>
+
     </div>
-
-    <div id="app-2">
-        <span v-bind:title="message">
-        This page is empty.
-    </div>
-
-    <script>
-    var app = new Vue({
-      el: '#app',
-      data: {
-        msg1: 'Welcome from dbNet!'
-      }
-    })
-
-    var app2 = new Vue({
-      el: '#app-2',
-      data: {
-        message: 'You loaded this page on ' + new Date().toLocaleString()
-      }
-    })
-    </script>
 
 </body>
 
