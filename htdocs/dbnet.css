@@ -7,8 +7,8 @@
     height: 20vh
 }
 
-.page-40 {
-    height: 40vh
+.page-30 {
+    height: 30vh
 }
 
 .grad {
@@ -21,6 +21,10 @@
 
 .blurb {
     color:#fff; font-style:italic; font-size:18px; font-weight: normal;
+}
+
+.skill {
+    color:#fff; font-size:18px; font-weight: normal;
 }
 
 .phone {
