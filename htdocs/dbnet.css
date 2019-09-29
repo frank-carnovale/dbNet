@@ -3,18 +3,26 @@
     height: 100vh
 }
 
+.page-20 {
+    height: 20vh
+}
+
+.page-40 {
+    height: 40vh
+}
+
 .grad {
     background-image: linear-gradient(to bottom right, #00f, #004);
 }
 
 .dbnet {
-    color:#fff; font-style:italic; font-size:48px; font-weight: bolder; font-family: Arial;
+    color:#fff; font-style:italic; font-size:48px; font-weight: bolder;
 }
 
 .blurb {
-    color:#fff; font-style:italic; font-size:18px; font-weight: normal; font-family: Arial;
+    color:#fff; font-style:italic; font-size:18px; font-weight: normal;
 }
 
 .phone {
-    color:#fff; font-style:italic; font-size:16px; font-weight: normal; font-family: Arial;
+    color:#fff; font-style:italic; font-size:16px; font-weight: normal;
 }
