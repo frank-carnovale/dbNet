@@ -12,7 +12,7 @@
 }
 
 .grad {
-    background-image: linear-gradient(to bottom right, #00f, #004);
+    background-image: linear-gradient(to bottom right, #04f, #002);
 }
 
 .dbnet {
@@ -20,7 +20,7 @@
 }
 
 .blurb {
-    color:#fff; font-style:italic; font-size:18px; font-weight: normal;
+    color:#fff; font-style:italic; font-size:24px; font-weight: normal;
 }
 
 .skill {
